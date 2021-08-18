@@ -67,19 +67,6 @@ header{
     max-width: 50%;
 }
 
-header div a{ 
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    font-size: 1vw;
-    color: var(--whitecolor);
-    padding: 0%;
-    text-decoration: none;
-}
-
-header div a:hover{
-    color: rgb(48, 142, 236);
-}
-
 .personal{
     display: flex;
     flex-direction: column;
@@ -216,7 +203,42 @@ header div a:hover{
     left: 10%;
 }
 
+footer{
+    background: rgb(243, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    text-align: center;
+    margin: 3%
+}
 
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.linkphotos{
+    max-width: 50%;
+}
+
+footer div a{ 
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size:0.75vw;
+    color: var(--whitecolor);
+    padding: 0%;
+    text-decoration: none;
+}
+
+footer div a:hover{
+    color: rgb(48, 142, 236);
+}
+
+/*Media Query for Tablets*/
 @media screen and (max-width: 768px){
     header div a{
         font-size: 0.4rem;
@@ -263,7 +285,7 @@ header div a:hover{
     }
 }
 
-
+/*Media Query for Mobile*/
 @media screen and (max-width: 480px){
     header div a{
         font-size: 0.4rem;
