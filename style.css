@@ -112,6 +112,15 @@ header{
     text-align: center;
 }
 
+.contact a{
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 0.8vw;
+    color: var(--whitecolor);
+    hyphens: none;
+    text-decoration: none;
+}
+
 .contacth4{
     hyphens: none;
 }
